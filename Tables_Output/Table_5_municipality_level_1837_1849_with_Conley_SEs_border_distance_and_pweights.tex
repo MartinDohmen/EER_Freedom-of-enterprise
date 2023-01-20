@@ -1,0 +1,31 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{6}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}\\
+                    &\multicolumn{1}{c}{All}&\multicolumn{1}{c}{All}&\multicolumn{1}{c}{Adj}&\multicolumn{1}{c}{Kantons}&\multicolumn{1}{c}{Kantons}&\multicolumn{1}{c}{Kantons}\\
+\hline
+Gewerbefreiheit     &       5.631\sym{***}&       5.314\sym{**} &       5.078\sym{**} &       5.607\sym{**} &       5.047\sym{***}&       5.988\sym{***}\\
+                    &     (1.910)         &     (2.128)         &     (2.355)         &     (2.231)         &     (1.845)         &     (1.777)         \\
+[1em]
+Pop. 1837 in 1000   &       0.237\sym{***}&       0.144\sym{*}  &      0.0955         &       0.591\sym{*}  &       0.603         &       0.396         \\
+                    &    (0.0320)         &    (0.0802)         &     (0.577)         &     (0.355)         &     (0.380)         &     (0.689)         \\
+[1em]
+Border distance     &     -0.0308         &     -0.0110         &      0.0246         &      0.0597         &     0.00963         &      0.0717         \\
+                    &    (0.0375)         &    (0.0339)         &    (0.0617)         &    (0.0810)         &     (0.124)         &     (0.131)         \\
+[1em]
+Old district Kassel &                     &                     &                     &                     &      -1.561         &       0.664         \\
+                    &                     &                     &                     &                     &     (1.095)         &     (1.479)         \\
+[1em]
+Constant            &       5.987\sym{***}&       6.533\sym{***}&       6.294\sym{***}&       6.635\sym{***}&       7.625\sym{***}&       6.392         \\
+                    &     (1.037)         &     (1.109)         &     (1.410)         &     (1.144)         &     (0.588)         &         (.)         \\
+\hline
+Observations        &         394         &         394         &         214         &          68         &          68         &          68         \\
+\(R^{2}\)           &       0.133         &       0.072         &       0.168         &       0.279         &       0.289         &       0.203         \\
+Weighted by pop.    &         Yes         &          No         &         Yes         &         Yes         &         Yes         &          No         \\
+Share Prussia       &        0.53         &        0.53         &        0.60         &        0.51         &        0.51         &        0.51         \\
+Mean border dist.   &       23.41         &       23.41         &       13.90         &        4.93         &        4.93         &        4.93         \\
+Max border dist.    &       55.00         &       55.00         &       36.30         &       14.47         &       14.47         &       14.47         \\
+\hline\hline
+\end{tabular}
+}
